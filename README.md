@@ -27,8 +27,8 @@ cd Mixed-Words-Game
 
 3. Compile e execute o projeto através da sua IDE ou via linha de comando:
 ```bash
-javac org/products/Main.java
-java org.products.Main
+javac org/mixedWordsGame/Main.java
+java org.mixedWordsGame.Main
 ```
 
 ### Exemplo de Jogada:
