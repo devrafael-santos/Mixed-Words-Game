@@ -1,1 +1,1 @@
-mesa,cadeira,jogo,controle,headset,cabeça,pessoa,carro,elevante,cachorro,gato,cavalo,chapéu,coleira,shampoo,mousepad,agua,frigideira,munitor,teclado
+mesa,cadeira,jogo,controle,headset,cabeça,pessoa,carro,elevante,cachorro,gato,cavalo,chapéu,coleira,shampoo,mousepad,agua,frigideira,monitor,teclado

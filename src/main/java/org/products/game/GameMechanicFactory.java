@@ -1,5 +1,7 @@
 package org.products.game;
 
+import org.products.mixer.MixerFactory;
+
 import java.util.List;
 import java.util.Random;
 
@@ -10,11 +12,7 @@ public class GameMechanicFactory {
     public static GameMechanic getRandomGameMechanic() {
         Random random = new Random();
 
-        if (random.nextBoolean()) {
-            return mechanics.getFirst();
-        }
-
-        return mechanics.get(1);
+        return mechanics.get(random.nextInt(0, GameMechanicFactory.mechanics.size()));
     }
 
 }

@@ -10,10 +10,6 @@ public class MixerFactory {
     public static Mixer getRandomMixer() {
         Random random = new Random();
 
-        if (random.nextBoolean()) {
-            return mixers.getFirst();
-        }
-
-        return mixers.get(1);
+        return mixers.get(random.nextInt(0, MixerFactory.mixers.size()));
     }
 }
