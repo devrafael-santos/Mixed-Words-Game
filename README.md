@@ -34,12 +34,12 @@ java org.products.Main
 ### Exemplo de Jogada:
 ```
  --- Bem vindo ao Mixed Words Game! --- 
-Mode: Normal
-Attempts: 3
+Mode: Survival
+Attempts: 5
 
-Palavra: MAPROGRA
+Palavra: maprogra
 Adivinhe a palavra (0 para finalizar o jogo): 
-PROGRAMA
+programa
 
 Muito bem!! Você acertou a palavra!
 ```
